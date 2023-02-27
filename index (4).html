@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Mi página personal</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+  <title>Bootstrap Example</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>Bootstrap Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="navbar-logo">
+        <a href="#"><img src="logo.png" alt="Logo"></a>
+      </div>
+      <ul class="navbar-links">
+        <li><a href="#about">Acerca de</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="about">
+      <h2 style="font-family: Times New Roman;">Acerca de</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lobortis malesuada fringilla. Pellentesque
+        habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+      <img src="placeholder.jpg" alt="Imagen de muestra">
+    </section>
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
+              xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide"
+              preserveAspectRatio="xMidYMid slice" focusable="false">
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#555" dy=".3em">First
+                slide</text>
+            </svg>
+          </div>
+          <div class="carousel-item">
+            <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
+              xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Second slide"
+              preserveAspectRatio="xMidYMid slice" focusable="false">
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#666"></rect><text x="50%" y="50%" fill="#444" dy=".3em">Second
+                slide</text>
+            </svg>
+          </div>
+          <div class="carousel-item">
+            <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
+              xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Third slide"
+              preserveAspectRatio="xMidYMid slice" focusable="false">
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#555"></rect><text x="50%" y="50%" fill="#333" dy=".3em">Third
+                slide</text>
+            </svg>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Contacto</h2>
+      <form>
+      <div class="mb-3">
+        <label for="gmail1" class="form-label">email contacto 2</label>
+        <input type="email2" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">//</div>
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">contraseña</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">marcame</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    </section>
+  </main>
+  <div class="card" style="width: 25rem;">
+    <img src="..." class="card-img-top" alt="">
+    <div class="card-body">
+      <h5 class="card-title">card title</h5>
+      <p class="card-text">ejemplo texto card .</p>
+      <a href="#contact" class="btn btn-primary">ir a contacto</a>
+    </div>
+  </div>
+  <footer style="background: linear-gradient(to right, #ff0000, #00ff00);">
+    <p>Alberto Moreno - html</p>
+  </footer>
+</body>
+
+</html>
